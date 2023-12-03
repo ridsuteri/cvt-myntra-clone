@@ -11,10 +11,11 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
 }
 
 .logo_container{
-    height: 40px;
+    height: 36px;
 }
 
 .logo_container img{
@@ -71,7 +72,6 @@ header{
 
 
 /* action section */
-
 .action_bar{
     display: flex;
     min-width: 200px;
@@ -84,4 +84,75 @@ header{
     align-items: center;
     font-size: 12px;
     font-weight: 700;
+}
+
+/* banners */
+.banner_container{
+    width: 100vw;
+    margin:30px 0;
+}
+
+.banner_container img{
+    width: 100%;   
+}
+
+
+/* categories */
+
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 50px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sale_item{
+    width: 200px;
+}
+
+
+/* footer */
+
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFBFC;
+    padding: 30px 0px 40px 0px;
+}
+
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer_column h3{
+    font-size: 12px;
+    color:#282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:14px;
+}
+
+.footer_column a{
+    padding-top:14px;
+    color:#696b79;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #94969f;
+    text-align: center;
+    padding: 10px;
 }
